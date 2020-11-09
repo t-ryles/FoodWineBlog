@@ -1,0 +1,206 @@
+.Josefin-font {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Header */
+#title {
+    font-size: 15em;
+    margin: 0%;
+    justify-self: left;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 12px;
+}
+
+#motto {
+    font-size: 4.5em;
+    margin-bottom: 0;
+    margin-right: 3%;
+    justify-self: right;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+#flame:hover {
+    filter: drop-shadow(0 0 0.95rem crimson);
+}
+
+.header_main {
+    padding-left: 20px;
+    display: grid;
+    color: #d7d7d7;
+    background-color: #0d0d0e;
+}
+
+.main_grid_container {
+    display: grid;
+    grid-template-columns: 55% 45%;
+    grid-template-rows: 100%;
+}
+
+.nav_button {
+    background-color: #d7d7d7;
+    color: #0d0d0e;
+    border-radius: 10px;
+    border: none;
+    margin: 0;
+    padding-bottom: 0;
+    font-size: 25px;
+}
+
+.photo_gallery_button, .article_button {
+    display: none;
+}
+
+/* Main content */
+.main_sub_header {
+    margin-bottom: 0;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+/* Footer */
+.footer_main {
+    display: flex;
+    position: sticky;
+    height: 100px;
+    justify-content: center;
+    align-content: flex-end;
+    background-color: #0d0d0e;
+
+}
+
+.footer_icon,
+button {
+    font-size: 5em;
+    margin-top: .3em;
+    margin-left: 1.5em;
+    color: #d7d7d7;
+}
+
+.footer_icon:hover {
+    filter: drop-shadow(0 0 0.75rem #d7d7d7);
+}
+
+@media (max-width: 1350px) {
+    #title {
+        font-size: 12em;
+    }
+}
+
+@media (max-width: 1230px) {
+    .footer_main {
+        height: 50px;
+        font-size: .5em;
+    }
+    .photo_gallery_button {
+        display: inline;
+    }
+}
+
+@media (max-width: 1100px) {
+    #title {
+        font-size: 10em;
+        margin: 0;
+        justify-self: left;
+        font-family: 'Josefin Sans', sans-serif;
+        padding-top: 6px;
+    }
+    
+    #motto {
+        font-size: 2.5em;
+        margin-bottom: 0;
+        margin-right: 2%;
+        justify-self: right;
+        font-family: 'Josefin Sans', sans-serif;
+    
+    }
+    .header_main {
+        padding-left: 10px;
+        display: grid;
+        color: #d7d7d7;
+        background-color: #0d0d0e;
+    }
+
+    .photo_grid {
+        display: none;
+    }
+
+}
+
+@media (max-width: 900px) {
+    #title {
+        font-size: 8em;
+    }
+    .nav_button {
+        font-size: 7px;
+    }
+}
+
+@media (max-width: 768px) {
+    #title {
+        font-size: 5em;
+        margin: 0%;
+        justify-self: left;
+        font-family: 'Josefin Sans', sans-serif;
+        padding-top: 12px;
+    }
+    #motto {
+        font-size: 1.5em;
+        margin-top: 0;
+        margin-bottom: 0;
+        justify-self: right;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    .header_main {
+        padding-left: 7px;
+        display: grid;
+        color: #d7d7d7;
+        background-color: #0d0d0e;
+    }
+    /* QOTD */
+    #quote_OTD {
+        font-size: 1.3em;
+        justify-content: center;
+        font-family:'Josefin Sans', sans-serif;
+        margin-top: 6px;
+        margin-left: 7px;
+    }
+    /* Foot */
+    .footer_main {
+        display: flex;
+        height: 50px;
+        justify-content: center;
+        background-color: #0d0d0e;
+    
+    }
+    
+    .footer_icon,
+    button {
+        font-size: 2.5em;
+        margin-top: .3em;
+        margin-left: 1.5em;
+        color: #d7d7d7;
+    }
+
+}
+
+@media (max-width: 450px) {
+    .main_grid_container {
+        display: grid;
+        grid-template-columns: 100%;
+
+    }
+    #title {
+        font-size: 2.5em;
+        margin: 0%;
+        justify-self: left;
+        font-family: 'Josefin Sans', sans-serif;
+        padding-top: 12px;
+    }
+}
